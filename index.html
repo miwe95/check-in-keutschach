@@ -1,13 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Check in instructions</title>
 </head>
+
 <body>
-    <h1>Check in Instructions / Check in Anweisungen</h1>
-    
+    <h1 class="font-medium leading-tight text-2xl mt-0 mb-2 text-grey-300">Check in Instructions / Check in Anweisungen
+    </h1><br>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full">
+        <div class="shadow hover:shadow-md w-full bg-white rounded-lg overflow-hidden cursor-pointer">
+            <img class="object-cover w-full h-70" src="parken.jpg" alt="parken" />
+
+            <div class="relative p-4">
+                <h3 class="text-base md:text-xl font-medium text-gray-800">
+                    1. Parken/Parking
+                </h3>
+
+                <p class="mt-4 text-base md:text-lg text-gray-600">
+                    Parken ist auf der Wiese vor dem Haus möglich.<br>
+                    Parking in front of the house.
+                </p>
+            </div>
+        </div>
+
+        <div class="shadow hover:shadow-md w-full bg-white rounded-lg overflow-hidden cursor-pointer">
+            <img class="object-cover w-full h-66" src="weg.jpg" alt="Weg" />
+
+            <div class="relative p-4">
+                <h3 class="text-base md:text-xl font-medium text-gray-800">
+                    Weg zur Tür/Path to the door
+                </h3>
+
+                <p class="mt-4 text-base md:text-lg text-gray-600">
+                    Einfach dem Weg zur weisen Türe folgen.
+                    Just follow the path to the white door.
+                </p>
+            </div>
+        </div>
+
+        <div class="shadow hover:shadow-md w-full bg-white rounded-lg overflow-hidden cursor-pointer">
+            <img class="object-cover w-full h-70" src="lock1.jpg" alt="lock1" />
+
+            <div class="relative p-4">
+                <h3 class="text-base md:text-xl font-medium text-gray-800">
+                    Aktivieren des Schlosses/Activating the Lock
+                </h3>
+
+                <p class="mt-4 text-base md:text-lg text-gray-600">
+                    Auf der Tür findet man ein elektronisches Nummernschloss. Um das Schloss zu aktivieren bitte auf das
+                    kleine "offne Schlossicon" drücken. <br>
+                    To activate the lock please press the "open lock icon".
+                </p>
+            </div>
+        </div>
+
+        <div class="shadow hover:shadow-md w-full bg-white rounded-lg overflow-hidden cursor-pointer">
+            <img class="object-cover w-full h-70" src="lock2.jpg" alt="lock2" />
+
+            <div class="relative p-4">
+                <h3 class="text-base md:text-xl font-medium text-gray-800">
+                    Code eingeben/insert code
+                </h3>
+
+                <p class="mt-4 text-base md:text-lg text-gray-600">
+                    Auf dem kleinen Bildschirm des Schlosses erscheint das Datum. Das Schloss ist aktiv und der Code,
+                    der per Airbnbchat mitgeteilt wurde kann nun eingegeben werden.
+                    The date appears on the little screen. The lock is now active and the code which was send via
+                    Airbnbchat can be inserted.
+                </p>
+            </div>
+        </div>
+
+        <div class="shadow hover:shadow-md w-full bg-white rounded-lg overflow-hidden cursor-pointer">
+            <img class="object-cover w-full h-70" src="lock3.jpg" alt="lock3" />
+
+            <div class="relative p-4">
+                <h3 class="text-base md:text-xl font-medium text-gray-800">
+                    Code bestätigen/Confirm code
+                </h3>
+
+                <p class="mt-4 text-base md:text-lg text-gray-600">
+                    Erneut auf das kleine "Schlossicon" drücken um den Code zu bestätigen.
+                    To confirm the Code press the lock icon again.
+                </p>
+            </div>
+        </div>
+
+        <div class="shadow hover:shadow-md w-full bg-white rounded-lg overflow-hidden cursor-pointer">
+            <img class="object-cover w-full h-70" src="lock4.jpg" alt="lock4" />
+
+            <div class="relative p-4">
+                <h3 class="text-base md:text-xl font-medium text-gray-800">
+                    Drehen des Schlosses/Turn the lock
+                </h3>
+
+                <p class="mt-4 text-base md:text-lg text-gray-600">
+                    Wurde der Code richtig eingeben erscheint auf dem Bildschirm der Text "Turn handle". Nun kann das
+                    Schloss wie ein Schlüssel nach rechts gedreht werden um die Türe zu entsperren.
+                    If the code was inserted correct you can now turn the lock like a key to the right to unlock the
+                    door.
+                </p>
+            </div>
+        </div>
+        <div class="shadow hover:shadow-md w-full bg-white rounded-lg overflow-hidden cursor-pointer">
+            <img class="object-cover w-full h-70" src="lock5.jpg" alt="lock5" />
+
+            <div class="relative p-4">
+                <h3 class="text-base md:text-xl font-medium text-gray-800">
+                    Schließen der Tür von außen/Lock the door from outside
+                </h3>
+
+                <p class="mt-4 text-base md:text-lg text-gray-600">
+                    Möchten Sie das Haus verlassen und die Türe von außen schließen, einfach die vorherigen Schritte
+                    wiederholen und das Schloss nach rechts drehen.
+                    If you want to lock the door from the outside just repeate the steps before and turn the lock to the
+                    left.
+                </p>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
